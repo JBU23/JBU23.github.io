@@ -1,0 +1,2 @@
+var _0x68eb=["\x2E\x65\x6C\x65\x6D\x65\x6E\x74","\x23\x63\x61\x64\x65\x6E\x61\x73\x2D\x74\x65\x78\x74\x6F","\x7C","\x68\x74\x6D\x6C"];
+var typed= new Typed(_0x68eb[0],{stringsElement:_0x68eb[1],typeSpeed:75,startDelay:300,backSpeed:75,smartBackspace:true,shuffle:false,backDelay:1500,loop:true,loopCount:1,showCursor:true,cursorChar:_0x68eb[2],contentType:_0x68eb[3]})
