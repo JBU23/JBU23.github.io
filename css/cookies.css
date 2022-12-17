@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,600&display=swap');
+
 .aviso-cookies{
     display: none;
 	background: #fff;
@@ -110,6 +112,11 @@ body::-webkit-scrollbar{
 	box-shadow: 0px 0px 5px 1px black;
   }
 
+  .info-amazon{
+	font-size: 77%;
+	font-family: 'Nunito Sans', sans-serif;
+  }
+
   a {
 	color: inherit;
   }
@@ -137,3 +144,29 @@ body::-webkit-scrollbar{
     background-position: center;
     transition: transform .2s;
   }
+
+  @media screen and (max-width: 618px){
+     
+	.izq h3{
+		font-size: 85%;
+	}
+
+}
+@media screen and (max-width: 618px){
+     
+	.info-amazon{
+		font-size: 47%;
+	  }
+
+}
+@media screen and (max-width: 618px){
+     
+	.izq h3{
+		font-size: 45%;
+	}
+	.info-amazon{
+		font-size: 37%;
+	  }
+
+
+}
