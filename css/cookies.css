@@ -144,6 +144,10 @@ body::-webkit-scrollbar{
     background-position: center;
     transition: transform .2s;
   }
+  
+  .titlle-shop{
+    color: #38B5FD;
+}
 
   @media screen and (max-width: 618px){
      
