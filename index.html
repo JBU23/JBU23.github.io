@@ -37,12 +37,6 @@
 			padding: 0px;
 		}
 
-		#header {
-			margin: auto;
-			width: 500px;
-			font-family: Arial, Helvetica, sans-serif;
-		}
-
 		ul,
 		ol {
 			list-style: none;
@@ -111,23 +105,7 @@
 
 <body class="min-h-screen flex flex-col CYDIA_IS_PRESENT_CLASS SILEO_IS_PRESENT_CLASS">
 
-    <header class="header sticky sticky--top js-header">
-
-
-        <div class="grid">
-            
-          <nav class="navigation">
-
-            <ul class="navigation__list navigation__list--inline">
-                <img src="/img/logo.png" rel="noopener" class="logo-header" alt="">
-              <li class="navigation__item"><a href="/index.html" rel="noopener" class="navigation__link navigation__link--is-active"><span class="icon-home"></span> Home</a></li>
-			  <li class="navigation__item"><a href="https://twitter.com/JBU_15" rel="noopener" target="_blank" class="navigation__link"><span class="icon-twitter"></span> Twitter</a></li> 
-			  <!--li class="navigation__item"><a id="JB" class="navigation__link">Jailbreak</a></!--li-->
-              <!--li class="navigation__item"><a href="https://wa.me/message/X63O7AZ6XYRIB1" target="_blank" class="navigation__link"><span class="icon-whatsapp"></span> Contacto</a></li-->
-            </ul>
-          </nav>
-      
-        </div>
+    <header id="header" class="header sticky sticky--top js-header">
       
       </header>
 
@@ -181,7 +159,6 @@
 			<div class="section-header">
 			  <label></label>
 			</div>
-
 
 		<a class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between"
 		href="/fondos 14.html" rel="noopener">
@@ -292,6 +269,27 @@
                         
                     </div>
                 </a>
+				<a class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between"
+                    href="/Buscador de dispositivos/Buscador de dispositivos.html" rel="noopener">
+                    <div class="w-full flex items-center justify-between p-3 alternate-background">
+                        <div class="items-center justify-start content-center align-center flex flex-grow"
+                            style="width: calc(100% - 3rem);">
+                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
+                                <img src="img/search-logo.png" style="border-radius: 20%;"
+                                    class="bg-transparent h-10 w-10 overflow-hidden">
+                            </div>
+                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
+                                <div class="text-base font-semibold text-grey-dark truncate pb-1/2">
+                                    <div align="left">Buscador de dispositivos </div>
+                                </div>
+                                <div class="text-xs font-medium text-grey leading-tight truncate">
+                                    Jailbreak-Update
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </a>
 </section>
 				<div class="ads ">
 					<h4 class="arirubshop">Arirub<span class="titlle-shop">Shop</span></h4>
@@ -324,49 +322,6 @@
 			</div>	
 			</div>
 				<section class="card mb-2">
-				<a class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between"
-                    href="/Buscador de dispositivos/Buscador de dispositivos.html" rel="noopener">
-                    <div class="w-full flex items-center justify-between p-3 alternate-background">
-                        <div class="items-center justify-start content-center align-center flex flex-grow"
-                            style="width: calc(100% - 3rem);">
-                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
-                                <img src="img/search-logo.png" style="border-radius: 20%;"
-                                    class="bg-transparent h-10 w-10 overflow-hidden">
-                            </div>
-                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
-                                <div class="text-base font-semibold text-grey-dark truncate pb-1/2">
-                                    <div align="left">Buscador de dispositivos </div>
-                                </div>
-                                <div class="text-xs font-medium text-grey leading-tight truncate">
-                                    Jailbreak-Update
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </a>
-
-				<a class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between"
-                    href="/iOS/16/16.html" rel="noopener">
-                    <div class="w-full flex items-center justify-between p-3 alternate-background">
-                        <div class="items-center justify-start content-center align-center flex flex-grow"
-                            style="width: calc(100% - 3rem);">
-                            <div class="text-2xl text-grey-dark inline-flex w-auto mr-2 self-auto">
-                                <img src="img/ios-16-apple-roundup-header.png" style="border-radius: 20%;"
-                                    class="bg-transparent h-10 w-10 overflow-hidden">
-                            </div>
-                            <div style="max-width: calc(100% - 3.5rem);" class="flex-grow mr-2">
-                                <div class="text-base font-semibold text-grey-dark truncate pb-1/2">
-                                    <div align="left">Compatibilidad Con iOS & iPadOS 16 </div>
-                                </div>
-                                <div class="text-xs font-medium text-grey leading-tight truncate">
-                                    Jailbreak-Update
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                </a>
 
 				<a class="package-grid-item inline-block no-underline section-body w-full flex-grow justify-between"
 			href="https://arianoso.github.io/" rel="noopener" target="_blank">
@@ -453,7 +408,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="/js/particulas.js"></script>
-
+<script src="js/incluir.js"></script>
 		<script src="/js/menu.js"></script>
 
 </body>

@@ -1,0 +1,17 @@
+body{
+    background-image: url(/JB/compatibilidad-con-JB/img/ios-14-background.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+tr{
+    background-color: #ed7d31;
+}
+
+.color1{
+ background-color: #f8d7cd;
+}
+
+.color2{
+    background-color: #fcece8;
+}

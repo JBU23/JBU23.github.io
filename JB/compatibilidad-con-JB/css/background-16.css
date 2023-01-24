@@ -1,0 +1,17 @@
+body{
+    background-image: url(/JB/compatibilidad-con-JB/img/7412.WWDC_2022_Dark-1024w-1366h@2xipad.webp);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+tr{
+    background-color: #a6a6a6;
+}
+
+.color1{
+ background-color: #e2e2e2;
+}
+
+.color2{
+    background-color: #f1f1f1;
+}

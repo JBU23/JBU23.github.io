@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Nunito+Sans:ital,wght@1,600&display=swap');
+
+.table2{
+  border: #ffffff 1px solid;
+  border-collapse: collapse;
+}
+
+.tbody2{
+border: rgb(0, 0, 0) 1px solid;
+}
+
+.td2{
+border: rgb(0, 0, 0) 1px solid;
+margin: 17px;
+padding: 15px;
+}
+
+table {
+  border: #FFFFFF 1px solid;
+}
+td {
+  border: white 3px solid;
+}
+table {
+  border-collapse: collapse;
+}
+td {
+margin: 9px;
+padding: 0px;
+}
+
+p1 {
+color: white;
+}
+
+.cel{
+  font-size: 10px;
+  font-family: 'Explora', cursive;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.no-actualizar{
+  color: red;
+  font-size: 11px;
+}

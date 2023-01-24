@@ -1,0 +1,60 @@
+.firma-banner{
+    background-color: #70ad47;
+}
+
+.firma-banner::before{
+    content: 'Firmadas';
+    font-size: 28px;
+    margin-left: 35%;
+}
+
+.no-firma-banner{
+    background-color: #ed7d31;
+}
+
+.no-firma-banner::before{
+    content: 'No Firmadas';
+    font-size: 28px;
+    margin-left: 30%;
+}
+
+.firma1{
+    background-color: #ebf1e9;
+}
+
+.firma1, .no-firma1, .firma2, .no-firma2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.no-firma1{
+    background-color: #fcebe6;
+}
+
+.firma2{
+    background-color: #d5e3cf;
+}
+
+.no-firma2{
+    background-color: #f8d7cd;
+}
+.firma-oculta{
+    border: inset 0pt;
+}
+
+table {
+    border: #FFFFFF 0px solid;
+  }
+td {
+    border: black 3px solid;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    margin: 7px;
+    padding: 5px;
+}
+body{
+    background-size:100% 100%;
+}

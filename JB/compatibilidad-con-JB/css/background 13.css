@@ -1,0 +1,17 @@
+body{
+    background-image: url(/JB/compatibilidad-con-JB/img/iOS13_wallpaper_RedWhite_FlareZephyr.jpeg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+tr{
+    background-color: #4473c4;
+}
+
+.color1{
+ background-color: #cfd5ea;
+}
+
+.color2{
+    background-color: #e9ebf5;
+}
