@@ -125,4 +125,17 @@ float: left;
 
   .navigation__item{
     cursor: pointer;
+ }
+
+
+/* Scroll */
+body::-webkit-scrollbar{
+  width: 5.5px;
+
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #f72b00;
+border-radius: 5px;
+
 }
