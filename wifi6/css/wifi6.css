@@ -1,0 +1,23 @@
+.iphone-wifi6::after{
+    content: ' | Wi‑Fi 6 802.11ax con MIMO 2x2';
+}
+
+.mac1-wifi6::after{
+    content: ' | Wi-Fi 6 802.11ax';
+}
+
+.mac2-wifi6::after{
+    content: ' | wifi 802.11ax (6.ª gen.)';
+}
+
+.mac3-wifi6::after{
+    content: ' | Wi-Fi 6E (802.11ax)';
+}
+
+.identifier::after{
+    content: 'Identifier:';
+}
+
+.QueWifi6{
+    cursor: pointer;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+.navbar-brand, .display-2{
+    font-family: 'Audiowide', cursive;
+}
+
+      /*html {
+        scroll-behavior: smooth;
+      }*/
+      .imeiLink {
+        color: #fff!important;
+      }
+      .link-click {
+        cursor: pointer;
+        }
+      .specs-center {
+        width: 100%;
+        text-align: center;
+        float: left;
+        /*margin-top: 30px;*/
+      }
+
+      .card-title {
+        padding: 1rem;
+      }
+      .card-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .responad { width: 320px; height: 100px; }
+      @media(min-width: 800px) { .responad { width: 468px; height: 60px; } } /*510*/
+      @media(min-width: 992px) { .responad { width: 468px; height: 60px; } } /*510*/
+      @media(min-width: 1200px) { .responad { width: 728px; height: 90px; } } /*795*/
+      @media(min-width: 1600px) { .responad { width: 970px; height: 90px; } } /*970*/
+      .card-header-help{
+        background: linear-gradient(60deg, #696766, #a8a8a8);
+        color: #fff;
+      }
+      .card-header-primary{
+        background: linear-gradient(60deg, #07755a, #39a78b);
+        color: #fff!important;
+      }
+      .card-header-facebook{
+        background: linear-gradient(60deg, #3366cc, #0033ff);
+        color: #fff!important;
+      }
+      .card-header-combination{
+        background: linear-gradient(60deg, #01a3a4, #54a0ff);
+        color: #fff!important;
+      }
+      .card-header-childs{
+        background: linear-gradient(60deg, #642480, #8a26b5);
+        color: #fff!important;
+      }
+      .combination-link{
+        color: #018485!important;
+      }
+      .h1-title{
+        font-size: 1rem;
+        color: #fff!important;
+        display: inline-block;
+      }
+      .show-more:before {
+        height: 55px;
+        margin-top: -45px;
+        content: -webkit-gradient(linear,0% 100%,0% 0%,from(#fff),color-stop(.2,#fff),to(rgba(255,255,255,0)));
+        display: block;
+      }
+      .show-more a {
+        width: 94px;
+        display: block;
+        overflow: hidden;
+        position: relative;
+        line-height: 27px;
+        font-size: 14px;
+        color: #ff6600;
+        margin: 10px auto;
+        cursor: pointer;
+        font-weight: 600;
+      }
+      .hidden-div {
+        height: 210px;
+        overflow: hidden;
+      }
+      .is-mobile {
+        display: none;
+      }
+      @media (max-width: 480px) {
+        .is-default {
+            display: none;
+        }
+        .is-mobile {
+            display: block;
+        }
+      }
+
+      .bachlinh a {
+        font-size: 11px; 
+        color: #6b6b6b!important;
+      }
+      .stickybutton {
+        background-color: #4a154b;
+        position: fixed;
+        z-index: 15;
+        bottom: 140px;        
+        left: 0px;
+        border-top-right-radius: .42rem;
+        border-bottom-right-radius: .42rem;
+        list-style: none;
+        padding: 0px;
+          
+      }
+      .stickybutton a {
+        display: flex;
+        width: 45px;
+        height: 45px;
+        text-align: center;
+        color: #fff!important;
+        font-size: 20px;
+        line-height: 10px;
+        align-items: center;
+        justify-content: center;
+        transition: all .2s ease-in-out;
+      }
+      .stickybutton a:hover{
+        transform: scale(1.2);
+      }
+      @media  only screen and (max-width: 600px) {
+        .stickybutton{
+          display: none;
+        }
+      }
+      @media  screen and (min-width: 1400px) {
+        .stickbottom {
+          position: fixed;
+          display: flex;
+          justify-content: center;
+          bottom: 0;
+          width: 100%;
+          height: 90px;
+        }
+        .stickcontent{
+          background-color: red;
+          color: white;
+          width: 720px;
+          height: 90px;
+        }
+        .stickclose{
+          background-color: #8f2c91;
+          bottom: 90px;
+          height: 20px;
+        }
+      }
+/*
+      .modal-blur {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+      }
+      .modal-backdrop.show{
+        opacity: .6;
+      }
+      */
