@@ -1,3 +1,29 @@
+:root{
+    --gradient:  linear-gradient(to right, 
+      #1f2937,
+      #1f2937,
+      #833F46,
+      #425166,
+      #a55b62,
+      #425166
+    );
+  }
+
+
+
+
+
+body{
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: fondo-anim 20s infinite alternate;
+}
+
+@keyframes fondo-anim{
+    0%{background-position: bottom;} /*por defecto*/
+    100%{background-position: right;}
+  }
+
 @import url('https://fonts.googleapis.com/css2?family=Explora&family=Nunito+Sans:ital,wght@1,600&display=swap');
 
 .table2{
@@ -10,7 +36,7 @@ border: rgb(0, 0, 0) 1px solid;
 }
 
 .td2{
-border: rgb(0, 0, 0) 1px solid;
+border: rgb(255, 255, 255) 1px solid;
 margin: 17px;
 padding: 15px;
 }
@@ -19,7 +45,8 @@ table {
   border: #FFFFFF 1px solid;
 }
 td {
-  border: white 3px solid;
+  border: rgb(156, 156, 156) 1px solid;
+  color: white;
 }
 table {
   border-collapse: collapse;
@@ -70,4 +97,8 @@ color: white;
   margin-bottom: 0px;
   color: #FFFFFF;
   font-size: 35px;
+}
+
+.encabezado{
+    color: #DF7F04 !important;
 }

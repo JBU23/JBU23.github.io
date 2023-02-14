@@ -1,0 +1,160 @@
+/*ESTILOS ADICIONALES*/
+/**{margin:0; padding:0; box-sizing:border-box;}
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background: #3e3e46;
+  font-family: sans-serif;
+}
+/*TARJETA*/
+.tageta{
+  background: #202028;
+  width: 550px;
+  height: 200px;
+  margin: 20px;
+  border-radius: 10px 0 0 0;
+  display: flex;
+ flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*.tageta > div{
+    width: 100%;
+}*/
+
+.sale{
+  display: flex;
+}
+.sale .imagen{
+  width: 200px;
+  height: 200px;
+} 
+.sale .imagen img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 0 0 0;
+}
+.sale .info{
+  padding: 0px 25px;
+  align-items: center;
+}
+.sale .info h4{
+  margin-top: 10px;
+  font-size: 22px;
+  color: #00a9ec;
+}
+.sale .info p{
+  color: #f7f7f7;
+  font-size: 14px;
+}
+.sale .info .stars i{
+  color: #ffac00;
+  margin: 10px 0;
+  font-size: 16px;
+}
+.sale .info label{
+  font-size: 11px;
+  color: #feffff;
+}
+.sale .info .precio{
+  font-size: 23px;
+  color: #00a9ec;
+  font-weight: bold;
+}
+.sale .info .mini{
+  margin-left: 2px;
+  color: rgba(204,204,204,.3);
+}
+.fot{
+  background: #202028;
+  display: inline-flex;
+  color: rgba(204,204,204,.3);
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+  border-radius: 0 0 10px 0;
+}
+.fot li{
+  padding: 10px;
+  font-size: 13px;
+}
+
+/*BOTON COMPRA*/
+.buttons {
+  text-align: center;
+  width: 200px;
+}
+
+.btn {
+  color: #02a6ed;
+  border-radius: 5px 0 5px 0;
+  font-size: 14px;
+  padding: 5px;
+  margin-top: 10px;
+  max-width: 160px;
+  text-decoration: none;
+  width: 100%;
+  font-weight: bold;
+  z-index: 1;
+}
+@media (min-width: 400px) {
+  .btn {
+    display: inline-block;
+    margin-right: 2.5em;
+  }
+  .btn:nth-of-type(even) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 600px) {
+  .btn:nth-of-type(even) {
+    margin-right: 2.5em;
+  }
+  .btn:nth-of-type(5) {
+    margin-right: 0;
+  }
+}
+
+.btn-4 {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+.btn-4 span {
+  z-index: 20;
+}
+.btn-4:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+
+.btn-4:hover:after {
+  left: 120%;
+  -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+@media screen and (max-width: 600px){
+  .all{
+    width: 100%;
+    margin: 20px 0;
+  }
+}
+
+
+/*HECHO EN COLOMBIA 🇨🇴*/
