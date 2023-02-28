@@ -1,0 +1,126 @@
+button.accordion {
+    background-color: #b92d2d;
+    color: #f3f0f0;
+    cursor: pointer;
+    padding: 18px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin-bottom: 15px;
+}
+
+.position-accordion{
+    text-align: center;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #b92d2d28;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #f3f0f0;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: #b92d2d81;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #f3f0f0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+    text-align: center;
+}
+
+.sub-titulo{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+:root{
+    --gradient:  linear-gradient(to right, 
+      #1f2937,
+      #1f2937,
+      #833F46,
+      #425166,
+      #a55b62,
+      #425166
+    );
+  }
+
+
+
+
+
+body{
+    background-image: var(--gradient);
+    background-size: 400%;
+    animation: fondo-anim 20s infinite alternate;
+}
+
+@keyframes fondo-anim{
+    0%{background-position: bottom;} /*por defecto*/
+    100%{background-position: right;}
+  }
+
+
+
+ .info-palera1n{
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+ } 
+
+ /*.footer-img{
+    float: left;
+    padding-left: 55px;
+    color: whitesmoke;
+ }*/
+
+ .modal-size{
+    max-width: 100%;
+ }
+
+
+ div.figure {
+    width: 50%;
+    border: thin rgba(192, 192, 192, 0.452) solid;
+    margin: 0em;
+    padding: 0em;
+  }
+  div.figure p {
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    color: whitesmoke;
+  }
+
+#download-palera1n{
+    cursor: pointer;
+    text-decoration: underline;
+}
